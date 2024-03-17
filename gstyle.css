@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+div{
+    position: relative;
+}
+
+p{
+    position: absolute; 
+    z-index: 10;
+    color: white;
+    left: 20px;
+    top: 20px;
+    margin: 0;
+    font-size: 30px;
+}
+
+#addBtn button{
+    text-decoration: none;
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    border-radius: 4px;
+    background-color: #280274;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    display: inline-block;
+    position: absolute;
+}   
+
+#addBtn button:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#addBtn button:hover{
+  color: #b6b6b6b5;
+  right: 20px;
+  top: 2px;
+}

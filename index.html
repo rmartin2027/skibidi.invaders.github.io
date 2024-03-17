@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+    <title>Skibidi Invaders - Main Page</title>
+
+</head>
+<body>
+    <script>
+        function startMusic(){
+            let audio = new Audio("start.mp3")
+            audio.play()
+        }
+    </script>
+
+    <img src="logo.png" alt="logo">
+
+    <nav id="top">
+<div class="btn">
+    <button  onclick="document.location='game.html'" id="button1">Play</button>
+    <button  onclick="document.location='#instru'" id="button2"> Instructions</button>
+    <button  onclick="document.location='#ref'" id="button3">References</button>
+    <button  onclick="document.location='#gdevs'" id="button4">GameDevs</button>
+</div>
+    </nav>
+
+<div class="background"> 
+    <h4 id="instru">INSTRUCTIONS</h4>
+      <div class="transbox">
+        <p>
+            - OBJECTIVES: Your objective is to wipe out the Skibidi Invaders by shooting at them with your laser cannons.<br> Your goal is to score as many points as you can by shooting the invaders and prevent them from getting past you at all costs!<br><br>
+
+            - INSTRUCTIONS: To MOVE LEFT AND RIGHT, use the "a" and "d" keys.<br> You may use this to avoid being hit by the invaders and to strategize how you play!<br>To FIRE at the invaders, press “ space bar “. You can't rapid fire at the enemies!! <br><br>
+    
+            - SCORING: Points are scored after you hit an invader (10 POINTS PER INVADER). <br> Your score would appear and automically update on the top left corner of your screen.<br><br>
+
+            - Note that the invaders travel SIDEWAYS and when they touch the side of the screen they would move closer to you by 1 line.<br> Additionally, another set of invaders would respawn at a random time frame, so you better watch out!<br><br> <br>
+    
+    Tips:
+    Keep up with the invaders and wipe them out as efficiently as possible!<br> Look out for the projectiles the invaders are shooting!<br>
+    Follow the rhythm of the invaders! And lastly, enjoy the game! BEST OF LUCK PLAYER! ( P.S we hope you don't rage quit!)
+    </p>
+      </div>
+    </div>
+
+    <div class="background">
+        <h4 id="ref">REFERENCES</h4>
+          <div class="transbox">
+            <p>Our game is inspired by Tomohiro Nishikado's 'Space Invaders',  it welcomes an array<br> of the game's iconic, pixelated appearance. Our game also welcomes Nishikado's idea— adding our own<br> touch of visual appeal and combined knowledge in Computer Science.
+                <br><br>
+                Here are some of the links we have based from:<br><br>
+                <a href="https://spaceinvaders.viperfish.com.au/">REFERENCE 1</a>
+                <a href="https://youtu.be/qCBiKJbLcFI?si=z9A46qav1wg54qmh">REFERENCE 2</a>
+                <a href="https://www.classicgaming.cc/classics/space-invaders/play-space-invaders">REFERENCE 3</a>
+                <img src="sp.jpg" style=" margin-top: 10px; height: 315px; width: 325px; border-radius: 5px; border: 3px solid #280274;" alt="sp" >
+                
+          </div>
+        </div>
+
+        <h1 id="gdevs">Game Developers</h1>
+
+        <div class="doot">
+            
+           <div class="card">
+                <div class="imgH">
+                    <img src="jaron.jpg" alt="jaron">
+                </div>
+                <div class="content">
+                    <span class="name"> <a href="#">Jaron Martin</a></span>
+                    <ul>
+                        <li>Rafael Jaron T. Martin</li>
+                        <li>Captain Game Developer</li>
+                        <li>Very techy! Cool liek that</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgH">
+                    <img src="aly.jpg" alt="aly">
+                </div>
+                <div class="content">
+                    <span class="name"> <a href="#">Aly Vinluan</a></span>
+                    <ul>
+                        <li>Alyssandra D. Vinluan</li>
+                        <li> Commander Game Developer</li>
+                        <li>HOLEHHH MOLEHHH</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgH">
+                    <img src="mmar.jpg" alt="mmar">
+                </div>
+                <div class="content">
+                    <span class="name"> <a href="#">Mam Mar Alde</a></span>
+                    <ul>
+                        <li>Ma. Sophia Margarette Alde</li>
+                        <li>Lieutenant Game Developer</li>
+                        <li>Graphic Designer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <nav id="boink" style="margin-top: 20px;">
+            <div class="btn">
+                <button id="button5" onclick="document.location='game.html'">Play</button>
+                <button id="button6" onclick="document.location='index.html'">Back to Top</button>
+            </div>
+        </nav>
+
+
+</body>
+</html>

@@ -1,0 +1,352 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(bg.jpg);
+    background-color: black;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 600px;
+}
+
+h1{
+    color: #fff;
+    font-size: 53px;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.doot{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card .imgH {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    background: transparent;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.card .imgH img{
+    position: relative;
+    width: 300px;
+    height: 240px;
+    border-radius: 15px;
+
+}
+
+.card .imgH::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: -10px 10px 0 #fff;
+}
+
+.card .imgH::after{
+    content: '';
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: -10px 10px 0 #fff;
+}
+
+.card .content{
+    position: relative;
+    quotes: 100%;
+    font-family: "Pixelify Sans", sans-serif;
+    height: 150px;
+    background: #280274;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    padding: 0 35px;
+}
+
+.card .content ul{
+    color: #fff;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 18px;
+}
+
+.card .content .name{
+    font-family: "Pixelify Sans", sans-serif;
+    position: absolute;
+    top: -89px;
+    left: 0;
+    height: 80px;
+    width: 50%;
+    background-color: #280274;
+    font-size: 20px;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-top-right-radius: 25px;
+}
+
+.card .content .name::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -10px -10px 0 black;
+}
+
+.card .content .name::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -25px;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #280274;
+}
+
+.card .content .name a{
+    position: relative;
+    background: #fff;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    display: block;
+    border-radius: 7px;
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 200px;
+}
+
+
+
+.btn #button1 {
+    text-decoration: none;
+    outline: none;
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    border-radius: 10px;
+    background-color: #280274;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 15px 25px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    align-items: center;
+   justify-content: center;
+   margin: 5px;
+   box-shadow: 0 9px #8785b8;
+}
+  
+  .btn #button1:hover {background-color: #280274}
+  
+  .btn #button1:active {
+    background-color: #22045c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .btn #button2 {
+    text-decoration: none;
+    outline: none;
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    border-radius: 10px;
+    background-color: #280274;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 15px 25px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    align-items: center;
+   justify-content: center;
+   margin: 5px;
+   box-shadow: 0 9px #8785b8;
+}
+  
+  .btn #button2:hover {background-color: #280274}
+  
+  .btn #button2:active {
+    background-color: #22045c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .btn #button3 {
+    text-decoration: none;
+    outline: none;
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    border-radius: 10px;
+    background-color: #280274;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 15px 25px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    align-items: center;
+   justify-content: center;
+   margin: 5px;
+   box-shadow: 0 9px #8785b8;
+}
+  
+  .btn #button3:hover {background-color: #280274}
+  
+  .btn #button3:active {
+    background-color: #22045c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .btn #button4 {
+    text-decoration: none;
+    outline: none;
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    border-radius: 10px;
+    background-color: #280274;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 15px 25px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    align-items: center;
+   justify-content: center;
+   margin: 5px;
+   box-shadow: 0 9px #8785b8;
+}
+  
+  .btn #button4:hover {background-color: #280274}
+  
+  .btn #button4:active {
+    background-color: #22045c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .btn #button5 {
+    text-decoration: none;
+    outline: none;
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    border-radius: 10px;
+    background-color: #280274;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 15px 25px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    align-items: center;
+   justify-content: center;
+   margin: 5px;
+   box-shadow: 0 9px #8785b8;
+}
+  
+  .btn #button5:hover {background-color: #280274}
+  
+  .btn #button5:active {
+    background-color: #22045c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .btn #button6 {
+    text-decoration: none;
+    outline: none;
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    border-radius: 10px;
+    background-color: #280274;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 15px 25px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    align-items: center;
+   justify-content: center;
+   margin: 5px;
+   box-shadow: 0 9px #8785b8;
+}
+  
+  .btn #button6:hover {background-color: #280274}
+  
+  .btn #button6:active {
+    background-color: #22045c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+div.background {
+background: #280274 ;
+border: 2px solid #280274;
+}
+
+h4{
+color:white;
+text-align:center;
+font-family: "Pixelify Sans", sans-serif;
+font-size: 25px;
+}
+
+div.transbox {
+margin: 30px;
+background-color: #fff;
+border: 1px solid black;
+opacity: 0.6;
+text-align: center;
+}
+
+div.transbox p {
+margin: 5%;
+font-weight: bold;
+color: black;
+font-family: "Play", sans-serif;
+font-size:18px;
+}
